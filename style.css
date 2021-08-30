@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "ヒラギノ角ゴ ProN W6", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+body {
+    width: 100%;
+    background: #A3B4DC;
+}
+
+.main-visual {
+    width: 100%;
+    height: 300px;
+    /* background: #fff url(hero.jpg) 0 0 no-repeat; */
+    background-size: cover;
+    margin-bottom: 32px;
+    padding-top: 60px;
+}
+
+.icon-facebook2:before {
+  content: "\ea91";
+}
+
+h1{
+    color: #C9D5F1;
+    font-size: 84px;
+    padding: 60px;
+    padding-top: 40px;
+}
+
+.card {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    /* padding: 16px; */
+    /* float: left; */
+    position: relative;
+}
+
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    background: #FDDC99;
+    padding: 8px 0px;
+    position: fixed;
+    z-index: 2;
+}
+
+#header h1 {
+    float: left;
+    color: #f9f9f9;
+    margin-right: 48px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-top: 1px;
+    padding-left: 92%;
+}
+
+nav a {
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 12px 14px 0px;
+}
+
+nav a:hover {
+    /* border-bottom: 3px solid #f9f9f9; */
+    color: #C9D5F1;
+}
+
+
+
+.content {
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+    overflow: hidden;
+}
+
+.content:last-child {
+    border-bottom: 0;
+}
+
+
+.top-title {
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+    border-left: 6px solid #e63c35;
+}
+
+#content1 {
+    position: relative;
+}
+
+img {
+    float: left;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card{
+    border-radius: 36px;
+     width: 700px;
+     height: 750px;
+}
+
+.cardImage {
+    width: 700px;
+    height: 450px;
+}
+
+#cardImage{
+    background: #fff url(IMG_6122.JPG) 0 0 no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cardImage2{
+    background: #fff url(hinokyan.jpeg) 0 0 no-repeat;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#cardImage3{
+    background: #fff url(IMG_7425.JPG) 0 0 no-repeat;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#cardImage4{
+    background: #fff url(IMG_1057.JPG) 0 0 no-repeat;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+.cardText{
+    padding: 48px 64px;
+    font-size: 24px;
+    color: #191919;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+
+p {
+    
+    margin-bottom: 16px;
+}
+
+
+
+a.button{
+    text-decoration: none;
+    color: #fff;
+    background: #A3B4DC;
+    width: 180px;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 0;
+    
+}
+
+.button :active{
+    background:#C9D5F1;
+    
+}
+
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:92%;
+    margin:0 auto;
+}
+
+.slider .slick-slide {
+	transform: scale(0.75);/*左右の画像のサイズを80%に*/
+	transition: all .5s;/*拡大や透過のアニメーションを0.5秒で行う*/
+	opacity: 0.7;/*透過50%*/
+}
+
+.slider .slick-slide.slick-center{
+	transform: scale(1);/*中央の画像のサイズだけ等倍に*/
+	opacity: 1;/*透過なし*/
+}
+
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev, 
+.slick-next {
+    position: absolute;/*絶対配置にする*/
+    top: 42%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    border-top: 2px solid #fff;/*矢印の色*/
+    border-right: 2px solid #fff;/*矢印の色*/
+    height: 20px;
+    width: 20px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+
+.slick-dots {
+    text-align:center;
+	margin:20px 0 0 0;
+}
+
+.slick-dots li {
+    display:inline-block;
+	margin:0 5px;
+}
+
+.slick-dots button {
+    color: transparent;
+    outline: nonex;
+    width:8px;/*ドットボタンのサイズ*/
+    height:8px;/*ドットボタンのサイズ*/
+    display:block;
+    border-radius:50%;
+    background:#ccc;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+    background:#333;/*ドットボタンの現在地表示の色*/
+}
+
+
+footer {
+
+  margin-top: 48px;
+}
